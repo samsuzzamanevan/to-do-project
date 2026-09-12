@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header .main{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    width: 1320px;
+    margin: 0  auto;
+}
+
+
+header{
+    background-image: linear-gradient(to right, rgba(51, 69, 45, 0.951) 20%,rgba(51, 138, 26, 0.824) 100%);
+    padding: 20px 0;
+
+}
+header .main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+}
+
+header .main h1 span{
+    color: aquamarine;
+}
+
+
+header .main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgba(231, 223, 223, 0.867);
+}
+
+
+label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.input{
+    display: flex;
+    column-gap: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.input input{
+    height: 30px;
+    width: 300px;
+    padding: 8px 15px;
+    border-radius: 9px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.container button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    background-color: rgb(20, 195, 131);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: azure;
+    margin: 50px 0 0;
+    cursor: pointer;
+}
+
+.box{
+    width: 1320px;
+    margin: 0 auto;
+}
+.box1{
+    width: 1320px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(235, 225, 225, 0.86);
+    padding-bottom:60px ;
+}
+
+.container{
+    padding: 50px 0;
+    background-color: aliceblue;
+}
+
+
+.output{
+    padding: 20px 0;
+    background-color: aliceblue;
+}
+
+.output .box .firstBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.output .box .firstBox span{
+    background-color: rgba(133, 224, 194, 0.827);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: rgb(1, 85, 57);
+}
+
+.output .box .outputBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.output .box .outputBox .firstInput{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px 0 5px;
+}
+.output .box .outputBox .dateInput{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(84, 84, 84);
+}
+.output .box .outputBox .priceInput{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(18, 180, 126);
+}
+.output .box .outputBox .delete{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.outputBox{
+    margin: 35px 0;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2) ;
+    padding: 13px 50px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+.contain .flex h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+.contain .flex .total{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(37, 101, 62);
+}
+
+.contain .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(179, 222, 211, 0.687);
+    padding: 18px 30px;
+    border-radius: 20px;
+}
+
+.contain{
+    padding: 60px 0px;
+    background-color: aliceblue;
+}
+
+.emptyMassage{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 60px 0;
+}

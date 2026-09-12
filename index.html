@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- heading part start -->
+
+    <header>
+        <div class="main">
+            <img src="./images.png" alt="" height="60px" width="60px">
+            <div>
+                <h1>Expanse <span>Tracker</span></h1>
+                <p>Take Your daily Expanse, stay in control</p>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- heading part end -->
+
+
+
+    <!-- input part start -->
+
+
+    <div class="container">
+        <div class="box1">
+            <div class="input">
+                <div>
+                    <label for="name">Expanse Name</label>
+                    <input type="text" id="name" placeholder="Expanse Name">
+                </div>
+                <div>
+                    <label for="amount">Amount</label>
+                    <input type="number" id="amount" placeholder="Please write amount">
+                </div>
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" placeholder="Please write date">
+                </div>
+            </div>
+            <button>+ Add Expanse</button>
+        </div>
+    </div>
+
+
+
+    <!-- input part end -->
+
+
+    <!-- output part start -->
+
+
+    <div class="output">
+        <div class="box">
+            <div class="firstBox">
+                <h1><i class="fa-solid fa-list"></i> Expanse List</h1>
+                <span>0 items</span>
+            </div>
+
+            <div class="result">
+              
+            </div>
+
+            <div class="emptyMassage">
+                No item available
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- output part end -->
+
+
+    <!-- total part start -->
+
+    <div class="contain">
+        <div class="box">
+            <div class="flex">
+                <h1><i class="fa-solid fa-sack-dollar" style="color: rgb(40, 132, 20);"></i> Total Expanse</h1>
+                <p class="total">৳ 0</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- total part end -->
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
