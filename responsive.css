@@ -1,0 +1,181 @@
+/* Device	সাধারণ Width	Media Query
+Small Mobile	320px	max-width: 320px
+Mobile	375px	max-width: 375px
+Large Mobile	576px	max-width: 576px
+Tablet	768px	max-width: 768px
+Small Laptop	992px	max-width: 992px
+Laptop	1200px	max-width: 1200px
+Large Desktop	1400px+ */
+
+@media (max-width: 320px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header .main{
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        width: 90%;
+        margin: 0  auto;
+    }
+    header .main h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+    }
+    header .main p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: rgba(231, 223, 223, 0.867);
+        margin-top: 8px;
+    }
+    .box {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .box1 {
+        width: 90%;
+        margin: 0 auto;
+        border-bottom: 1px solid rgba(178, 177, 177, 0.86);
+        padding-bottom: 60px;
+    }
+
+    .box1 .input{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .input input{
+        height: 30px;
+        width: 200px;
+        padding: 8px 15px;
+        border-radius: 9px;
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    label{
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 16px ;
+        margin-left: 7px;
+    }
+
+    .container button{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: rgb(20, 195, 131);
+        border: none;
+        padding: 8px 12px;
+        border-radius: 30px;
+        color: azure;
+        margin: 50px 0 0 80px;
+        cursor: pointer;
+    }
+
+    .output .box .firstBox h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .output .box .firstBox h1 .fa-list{
+        margin-right: 3px;
+    }
+    .output .box .firstBox span{
+        background-color: rgba(133, 224, 194, 0.827);
+        padding: 5px 10px;
+        border-radius: 30px;
+        color: rgb(1, 85, 57);
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .output .box .outputBox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 15px;
+        border-radius: 8px;
+    }
+
+
+    .output .box .outputBox .firstInput{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0px 0 3px;
+    }
+    .output .box .outputBox .dateInput{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        color: rgb(84, 84, 84);
+    }
+    .output .box .outputBox .priceInput{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        color: rgb(18, 180, 126);
+    }
+    .output .box .outputBox .delete{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        font-weight: 400;
+        padding: 6px 12px;
+        border-radius: 30px;
+        border: none;
+        background-color: red;
+        color: aliceblue;
+        cursor: pointer;
+    }
+
+    
+
+.contain .flex h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contain .flex .total{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(37, 101, 62);
+}
+
+.contain .flex{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    background-color: rgba(179, 222, 211, 0.687);
+    padding: 18px 10px;
+    border-radius: 10px;
+}
+
+.contain{
+    padding: 20px 0px;
+    background-color: aliceblue;
+}
+
+.emptyMassage{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin: 60px 0;
+}
+
+}
