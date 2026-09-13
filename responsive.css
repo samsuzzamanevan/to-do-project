@@ -13,7 +13,9 @@ Large Desktop	1400px+ */
         margin: 0;
         padding: 0;
     }
-
+body{
+   background:red;
+}
     header .main{
         display: flex;
         align-items: center;
