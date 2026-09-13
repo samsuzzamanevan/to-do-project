@@ -7,7 +7,7 @@ Small Laptop	992px	max-width: 992px
 Laptop	1200px	max-width: 1200px
 Large Desktop	1400px+ */
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 430px) {
 
     * {
         margin: 0;
