@@ -19,6 +19,28 @@ let arr = JSON.parse(localStorage.getItem('itemName')) || []
 
 
 addBtn.addEventListener('click',function(){
+    if(nameInput.value === ''){
+       nameInput.style.border = '1px solid red'
+        return
+    }
+     else if (amountInput.value === '' || Number(amountInput.value) < 0) {
+        amountInput.style.border = '1px solid red'
+        nameInput.style.border = '1px solid black'
+        return
+    }
+
+     else if (dateInput.value === '') {
+        dateInput.style.border = '1px solid red'
+        amountInput.style.border = '1px solid black'
+        return
+    }
+
+    else{
+        nameInput.style.border = '1px solid black'
+        dateInput.style.border = '1px solid black'
+        amountInput.style.border = '1px solid black'
+    }
+    
     arr.push({
         name : nameInput.value,
         amount : amountInput.value,
@@ -26,7 +48,11 @@ addBtn.addEventListener('click',function(){
     })
     
     
+  
     forevery()
+
+
+
     nameInput.value = ''
     amountInput.value = ''
     dateInput.value = ''
@@ -59,10 +85,20 @@ function forevery(){
         })
     })
     arr.length <= 0? emptyMassage.style.display = 'block': emptyMassage.style.display = 'none'
-    
+    itemcounter.textContent = arr.length + ' items'
+
+    let totalinfo = 0;
+
+    for(let i = 0; i<arr.length; i++){
+        totalinfo += Number(arr[i].amount)
+    }
+    totalAmount.textContent = '৳ ' + totalinfo
 }
 
 
-forevery()
+
+    forevery()
+
+
 
 
